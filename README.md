@@ -1,6 +1,6 @@
 # npmtest-rbac2
 
-#### test coverage for  [rbac2 (v1.1.0)](https://github.com/ramniquesingh/rbac2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rbac2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rbac2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rbac2.svg)](https://travis-ci.org/npmtest/node-npmtest-rbac2)
+#### basic test coverage for  [rbac2 (v1.1.0)](https://github.com/ramniquesingh/rbac2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rbac2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rbac2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rbac2.svg)](https://travis-ci.org/npmtest/node-npmtest-rbac2)
 
 #### Simple RBAC checker with support for context checks.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rbac2/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rbac2/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rbac2/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rbac2/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rbac2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rbac2/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rbac2/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rbac2/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rbac2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rbac2/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rbac2/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rbac2/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "PATH=$(npm bin):$PATH mocha --recursive --full-trace --bail --check-leaks --reporter list tests"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
